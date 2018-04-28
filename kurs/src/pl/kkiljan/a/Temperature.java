@@ -1,4 +1,4 @@
-package pl.kkiljan;
+package pl.kkiljan.a;
 
 public class Temperature
     {
