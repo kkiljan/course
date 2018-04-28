@@ -13,7 +13,7 @@ public class bat {
 
     }
 
-    public float getSoundFrequency{
+    public float getSoundFrequency(){
         return soundFrequency;
 
     }
