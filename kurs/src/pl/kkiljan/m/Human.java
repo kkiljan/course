@@ -1,5 +1,7 @@
 package pl.kkiljan.m;
 
+import java.util.List;
+
 public class Human {
 
     private String firstName;
@@ -62,6 +64,8 @@ public class Human {
         System.out.println("human1.hashCode()" + human1.hashCode());
         System.out.println("human2.hashCode()" + human2.hashCode());
         System.out.println("human3.hashCode()" + human3.hashCode());
+
+        
 
     }
 
