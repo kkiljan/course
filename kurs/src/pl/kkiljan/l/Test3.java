@@ -4,7 +4,11 @@ public class Test3 {
 
     public static void main(String[] args) {
 
-        //wywołanie błędu autoboxingu
-       // Integer integerVar = " ";
+        Integer a = null;
+        int b = 5;
+        b +=a;
+
     }
+
+
 }
