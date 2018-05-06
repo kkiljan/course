@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson02;
 
+/*
+ W ramach ćwiczenia utwórz nowy projekt, w nim utwórz 2 różne pakiety. W pakietach utwórz klasy odpowiadające kilku rodzajom zwierząt wraz z kilkoma atrybutami. 
+ */
+
 public class cheetah {
 
     private double speed;
