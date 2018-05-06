@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson12;
 
+/*
+Napisz program pobierający od użytkownika dwie liczby całkowite. Wyświetl wynik ich dzielenia wraz z częścią ułamkową.
+ */
+
 import java.util.Scanner;
 
 public class Test2 {

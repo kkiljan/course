@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson12;
 
+/*
+Napisz program przyjmujący od użytkownika liczbę całkowitą i wyświetl wynik mnożenia tej liczby oraz stałej pi (Math.PI). Wyświetl wynik w postaci liczby całkowitej i liczby zmiennoprzecinkowej.
+ */
+
 import java.util.Scanner;
 
 public class Test1 {
