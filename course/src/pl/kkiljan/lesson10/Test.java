@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson10;
 
+/*
+Napisz program, który pobierze od użytkownika liczbę i wyświetli jej pierwiastek.
+ */
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
