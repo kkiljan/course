@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson05;
 
+/*
+Napisz metodę, która jako jedyny argument przyjmie zmienną typu int[] i zwróci sumę wszystkich elementów tablicy.
+ */
+
 public class Test5 {
 
 

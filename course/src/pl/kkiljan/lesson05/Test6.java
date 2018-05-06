@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson05;
 
+/*
+Przerób funkcję z zadania piątego tak, żeby metoda przymowała tablicę dwuwymiarową typu int[][].
+ */
+
 public class Test6 {
 
 
