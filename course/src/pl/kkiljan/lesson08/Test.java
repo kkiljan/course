@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson08;
 
+/*
+Narysuj choinkę w konsoli
+ */
+
 import java.util.Scanner;
 
 public class Test {
@@ -10,7 +14,7 @@ public class Test {
     }
 
     public static int numberOfLines() {
-        System.out.println("Rysujemy choinkę, przypomnij nam ile ma mieć poziomów?");
+        System.out.println("Rysujemy choinkę, ile ma mieć poziomów?");
         Scanner inputScanner = new Scanner(System.in);
         return inputScanner.nextInt();
 
