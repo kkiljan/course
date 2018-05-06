@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson14;
 
+/*
+Napisz program, który będzie pobierał od użytkownika imiona. Program powinien pozwolić użytkownikowi na wprowadzenie dowolnej liczby imion (wprowadzenie „-” jako imienia przerwie wprowadzanie). Na zakończenie wypisz liczbę unikalnych imion.
+ */
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
