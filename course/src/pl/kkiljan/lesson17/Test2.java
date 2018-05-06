@@ -1,7 +1,7 @@
 package pl.kkiljan.lesson17;
 
 /*
-Napisz klasę Human, która będzie miała dwa atrybuty name typu String oraz age typu int. Jak należałoby serializować instancje tej klasy aby zawsze poprawnie deserializować wiek (z dokładnością do roku)? 
+Napisz klasę Human, która będzie miała dwa atrybuty name typu String oraz age typu int. Jak należałoby serializować instancje tej klasy aby zawsze poprawnie deserializować wiek (z dokładnością do roku)?
  */
 
 import java.io.*;
