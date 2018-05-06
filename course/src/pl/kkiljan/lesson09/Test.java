@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson09;
 
+/*
+Napisz program, w którym zasymulujesz hierarchię dziedziczenia zwierząt.
+ */
+
 public class Test {
 
     public static void main(String[] args) {
