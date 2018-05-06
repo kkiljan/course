@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson15;
 
+/*
+Napisz program, który pobierze od użytkownika ścieżkę do pliku binarnego z datą urodzenia a następnie wyświetli ją na ekranie.
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 

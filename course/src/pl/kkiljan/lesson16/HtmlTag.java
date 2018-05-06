@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson16;
 
+/*
+Zaimplementuj klasę HtmlTag, która będzie menadżerem kontekstu. W konstruktorze powinna przyjmować nazwę znacznika np. em. Klasa powinna mieć metodę body, która przyjmie parametr typu String i wypisze go na konsoli.
+ */
+
 
 public class HtmlTag implements AutoCloseable {
 
