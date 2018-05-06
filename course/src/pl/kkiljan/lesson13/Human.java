@@ -1,15 +1,19 @@
 package pl.kkiljan.lesson13;
 
+/*
+Napisz klasę reprezentującą człowieka, zaimplementuj metody hashCode i equals.
+ */
+
 public class Human {
 
     private String firstName;
     private String lastName;
-    private int ID;
+    private int id;
 
-    public Human(String firstName, String lastName, int ID) {
+    public Human(String firstName, String lastName, int id) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.ID = ID;
+        this.id = id;
 
     }
 
@@ -21,8 +25,8 @@ public class Human {
         return lastName;
     }
 
-    public int getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
 
@@ -35,7 +39,7 @@ public class Human {
             Human otherHuman = (Human) obj;
             return firstName.equals(otherHuman.firstName) &&
                     lastName.equals(otherHuman.lastName) &&
-                    ID == otherHuman.ID;
+                    id == otherHuman.id;
 
         }
         return false;
@@ -43,7 +47,7 @@ public class Human {
 
     @Override
     public int hashCode(){
-        return 19 * firstName.hashCode() + 29 * lastName.hashCode() + 59 * ID;
+        return 19 * firstName.hashCode() + 29 * lastName.hashCode() + 59 * id;
     }
 
 
