@@ -1,20 +1,22 @@
-package pl.kkiljan.lesson18;
+package pl.kkiljan.lesson17;
+
+/*
+Napisz klasę Human, która będzie miała dwa atrybuty name typu String oraz age typu int. Jak należałoby serializować instancje tej klasy aby zawsze poprawnie deserializować wiek (z dokładnością do roku)? 
+ */
 
 import java.io.*;
-import java.util.List;
 
-public class Test1 {
+public class Test2 {
 
     public static void main(String[] args) {
 
 
-        List<String> list;
-        List<String> list2;
-        list = PopulationOfList.populationOfList();
+        Human human = new Human("Konrad", 26);
+        Human human2;
         String path = "E:\\serialization.bin";
 
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(path))) {
-            outputStream.writeObject(list);
+            outputStream.writeObject(human);
 
 
         }
@@ -25,8 +27,8 @@ public class Test1 {
 
         try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(path))) {
 
-            list2 = (List<String>) inputStream.readObject();
-            System.out.println(list2);
+            human2 = (Human) inputStream.readObject();
+            System.out.println(human2);
 
         }
         catch (IOException | ClassNotFoundException e) {
@@ -35,6 +37,8 @@ public class Test1 {
 
 
     }
+
+
 
 
 }

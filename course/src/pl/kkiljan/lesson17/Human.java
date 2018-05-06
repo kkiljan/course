@@ -1,4 +1,4 @@
-package pl.kkiljan.lesson18;
+package pl.kkiljan.lesson17;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

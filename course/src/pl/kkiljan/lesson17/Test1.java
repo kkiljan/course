@@ -1,20 +1,24 @@
 package pl.kkiljan.lesson17;
 
+/*
+Napisz program, który poprosi użytkownika o wprowadzenie kilku imion, imiona te zapisz w liście a następnie zserializuj ją do pliku. Napisz metodę, która odczyta ten plik i wyświetli zawartość listy na konsoli.
+ */
+
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Test1 {
 
     public static void main(String[] args) {
 
-        List<String> list = new ArrayList<>();
-        Test1.addElementsToList(list);
 
-        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("E:\\NewFile.bin"))) {
-            for (String e : list) {
-                outputStream.writeObject(e);
-            }
+        List<String> list;
+        List<String> list2;
+        list = PopulationOfList.populationOfList();
+        String path = "E:\\serialization.bin";
+
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(path))) {
+            outputStream.writeObject(list);
 
 
         }
@@ -22,56 +26,19 @@ public class Test1 {
             e.printStackTrace();
         }
 
-        Test1.deserialization();
+
+        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(path))) {
+
+            list2 = (List<String>) inputStream.readObject();
+            System.out.println(list2);
+
+        }
+        catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
 
 
     }
 
-    private static void addElementsToList(List<String> list) {
-        String out;
-
-        while (true) {
-
-            out = GetStringFromUser.getStringFromUser("Podaj imie, \"-\" kończy wprowadzanie.");
-            if (out.equals("-")) {
-                break;
-            }
-            list.add(out);
-
-
-        }
-    }
-
-    private static void deserialization() {
-
-        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("E:\\NewFile.bin"))) {
-            String name;
-
-            while (true) {
-                try {
-
-                    name = (String) inputStream.readObject();
-                    if (name == null) {
-                        break;
-                    }
-                    System.out.println(name);
-                }
-                catch (EOFException e){
-                    break;
-                }
-            }
-
-        }
-        catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        catch (IOException e) {
-            e.printStackTrace();
-        }
-        catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-
-    }
 
 }
