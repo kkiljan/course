@@ -1,4 +1,7 @@
 package pl.kkiljan.lesson04;
+/*
+Napisz program, który stworzy instancje tablicy służących do przechowywania sudoku i uzupełnij ją przykładową planszą.
+ */
 
 import java.util.Arrays;
 

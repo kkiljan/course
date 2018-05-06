@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson04;
 
+/*
+Napisz program pobierający trójelementową tablicę liczb i zwracający największą liczbę.
+ */
+
 public class Test2 {
     public static void main(String[] args) {
 

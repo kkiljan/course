@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson04;
 
+/*
+Napisz metodę pobierającą dwuelementową tablicę liczb i zwracający ich sumę.
+ */
+
 public class Test1 {
     public static void main(String[] args) {
 
