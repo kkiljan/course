@@ -13,7 +13,7 @@ public class ReadFromTextFileBinary {
     public static List<Integer> read(String path) {
 
 //Ścieżka jest podawana przez użytkownika, jednak do testów jest to niepotrzebne
-        path = "E:\\autoboxing.txt";
+      //  path = "E:\\autoboxing.txt";
         List<Integer> list = new ArrayList<>();
 
         DataInputStream inputStream = null;

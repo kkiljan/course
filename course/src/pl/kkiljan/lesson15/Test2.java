@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson15;
 
+/*
+Napisz program, który pobierze od użytkownika ścieżkę do pliku i wyświetli zawartość pliku na ekranie wraz z informacją ile linii znajduje się w pliku.
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 

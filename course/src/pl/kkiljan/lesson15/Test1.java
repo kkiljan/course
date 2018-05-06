@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson15;
 
+/*
+Napisz program, który pobierze od użytkownika ścieżkę do pliku tekstowego oraz kilka linijek tekstu (dopóki użytkownik nie wprowadzi „-” jako linijki) i zapisze je do pliku tekstowego.
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 

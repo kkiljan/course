@@ -12,7 +12,7 @@ public class ReadFromTextFile {
     public static List<String> read(String path) {
 
 //Ścieżka jest podawana przez użytkownika, jednak do testów jest to niepotrzebne
-        path = "E:\\autoboxing.txt";
+        //path = "E:\\autoboxing.txt";
         List<String> list = new ArrayList<>();
 
         BufferedReader fileReader = null;

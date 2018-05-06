@@ -9,7 +9,7 @@ public class WriteToTextFile {
     public static void write(String path, List<String> data) {
 
 //Ścieżka jest podawana przez użytkownika, jednak do testów jest to niepotrzebne
-        path = "E:\\autoboxing.txt";
+      //  path = "E:\\autoboxing.txt";
 
         FileWriter fileWriter = null;
         try {

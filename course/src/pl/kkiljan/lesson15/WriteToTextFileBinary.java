@@ -9,7 +9,7 @@ public class WriteToTextFileBinary {
     public static void write(String path, List<Integer> data) {
 
 //Ścieżka jest podawana przez użytkownika, jednak do testów jest to niepotrzebne
-        path = "E:\\autoboxing.txt";
+      //  path = "E:\\autoboxing.txt";
 
         DataOutputStream outputStream = null;
         try {
