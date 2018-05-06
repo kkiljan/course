@@ -1,4 +1,7 @@
 package pl.kkiljan.lesson07;
+/*
+Napisz dwie klasy implementujące interfejs Computation. Niech jedna z implementacji przeprowadza operację dodawania, druga mnożenia
+ */
 
 import java.util.Scanner;
 
