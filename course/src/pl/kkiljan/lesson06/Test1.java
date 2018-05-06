@@ -8,7 +8,8 @@ public class Test1 {
         Scanner inputScanner = new Scanner(System.in);
 
         for (int i = 0; i < temperature.length; i++) {
-            System.out.println("Wprowadź liczbę " + i);
+            System.out.println("Wprowadź 7 temperatur");
+            System.out.println("Pomiar nr " + (i+1));
             temperature[i] = inputScanner.nextDouble();
 
         }

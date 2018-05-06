@@ -1,5 +1,9 @@
 package pl.kkiljan.lesson06;
 
+/*
+Napisz program, który policzy średnią z kilku przedmiotów.
+ */
+
 import java.util.Scanner;
 
 public class Test2 {
