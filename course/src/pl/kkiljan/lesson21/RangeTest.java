@@ -8,6 +8,6 @@ public class RangeTest {
 @Test
     public void shouldSayThat15rIsInRange() {
         Range range = new Range(10, 20);
-        Assertions.assertTrue(range.isInRange(9));
+        Assertions.assertTrue(range.isInRange(15));
     }
 }
